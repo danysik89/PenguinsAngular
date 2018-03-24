@@ -9,7 +9,91 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
-  <p>1st commit</p>
+  
+  <div class="preloader">
+    <div class="pulse"></div>
+  </div>
+
+  <div id="my-page">
+
+    <div id="my-header">
+      
+    <header class="site-header" style="background-image: url(img/top-bg.jpg);">
+
+      <div class="top-line">
+        <a href="#" class="logo"><img src="img/logo-1.png" alt="Electron Club"></a>
+        <div class="phone hidden-xs"><i class="fa fa-mobile"></i> +38 (098) 56-898-54</div>
+        <a href="#my-menu" class="hamburger hamburger--emphatic">
+          <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+        </a>
+
+        <nav id="my-menu">
+          <ul>
+            <li><a href="#">Футбол</a></li>
+            <li class="active"><a href="#">Футбол</a></li>
+            <li><a href="#">Футбол</a></li>
+            <li><a href="#">Футбол</a></li>
+            <li><a href="#">Футбол</a></li>
+          </ul>
+        </nav>
+
+      </div> 
+
+      <div class="header-flex">
+        <div class="flex-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-xs-12">
+                
+                <div class="header-composition">
+
+                  <div class="welcome">
+                    <p><span>Ласкаво просимо в любительський</span></p>
+                    <h1 class="h1">Електон клуб</h1>                  
+                  </div>
+
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda illum quaerat nemo repudiandae consequatur animi, facere totam quisquam quas nam asperiores eius, voluptas facilis laudantium?</p>
+
+                  <a href="#" class="button">Зіграти</a>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+
+      <div class="header-social">
+        <nav class="soc">
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+
+      
+    </header>
+
+    </div>
+
+    <div id="my-content">
+      
+      <section class="s-services">
+          <div class="owl-carousel carousel-services"></div>
+      </section>
+
+      <app-root></app-root>
+
+    </div>
+
+    <div id="my-footer">
+      
+    </div>
+
+  </div>
+
 </body>
 </html>
