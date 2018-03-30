@@ -6,6 +6,12 @@
       font-size: inherit;
   }
 
+.navigation {
+    position: relative;
+    z-index: 2;
+    background-color: #0573e4 !important;
+}
+
 .main-app {
     position: relative;
     padding: 50px 0;

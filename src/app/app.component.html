@@ -1,4 +1,4 @@
-<app-player></app-player>
-<app-player></app-player>
-<app-player></app-player>
- 
+<app-player 
+  *ngFor="let u of users"
+  [user]="u"
+></app-player>
