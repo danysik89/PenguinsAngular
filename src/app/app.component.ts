@@ -9,6 +9,8 @@ import { UsersSrervice } from './users.service';
 })
 export class AppComponent {
 
+  
+
   searchStr = '';
   users = [];
 
